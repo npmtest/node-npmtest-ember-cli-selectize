@@ -1,1 +1,40 @@
-{     "devDependencies": {         "ember-cli-selectize": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-ember-cli-selectize",     "homepage": "https://github.com/npmtest/node-npmtest-ember-cli-selectize",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-ember-cli-selectize.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [ember-cli-selectize (v0.5.12)](https://github.com/miguelcobain/ember-cli-selectize#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-selectize.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-selectize)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "ember-cli-selectize": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-ember-cli-selectize",
+    "keywords": [
+        "coverage",
+        "test",
+        "ember-cli-selectize"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_ember_cli_selectize.js",
+    "name": "npmtest-ember-cli-selectize",
+    "nameAlias": "npmtest_ember_cli_selectize",
+    "nameOriginal": "npmtest-ember-cli-selectize",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-ember-cli-selectize.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
