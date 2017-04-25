@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [ember-cli-selectize (v0.5.12)](https://github.com/miguelcobain/ember-cli-selectize#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-selectize.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-selectize)",
+    "description": "#### basic test coverage for  [ember-cli-selectize (v0.5.12)](https://github.com/miguelcobain/ember-cli-selectize#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-selectize.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-selectize)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "ember-cli-selectize": "*",

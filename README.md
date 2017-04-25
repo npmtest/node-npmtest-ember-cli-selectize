@@ -1,6 +1,6 @@
 # npmtest-ember-cli-selectize
 
-#### test coverage for  [ember-cli-selectize (v0.5.12)](https://github.com/miguelcobain/ember-cli-selectize#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-selectize.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-selectize)
+#### basic test coverage for  [ember-cli-selectize (v0.5.12)](https://github.com/miguelcobain/ember-cli-selectize#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-selectize.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-selectize)
 
 #### An Ember and Selectize integration, packaged as an Ember-cli addon.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-cli-selectize/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-selectize/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-cli-selectize/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-selectize/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-selectize/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-selectize/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-cli-selectize/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-cli-selectize/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-selectize/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-selectize/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-cli-selectize/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-cli-selectize/build/coverage.html/index.html)
 
@@ -109,7 +109,8 @@
         "start": "ember server",
         "test": "ember try:each"
     },
-    "version": "0.5.12"
+    "version": "0.5.12",
+    "bin": {}
 }
 ```
 
